@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ViewParkingFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/view_parking_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/view_parking_layout"/>
+
+    <RelativeLayout
+        android:id="@+id/view_parking_progress_bar_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/progress_bar_layout_back"
+        android:elevation="20dp"
+        android:padding="@dimen/margin_small"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp">
+
+        <ProgressBar
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/view_parking_no_booking_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_bookings"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+</RelativeLayout>

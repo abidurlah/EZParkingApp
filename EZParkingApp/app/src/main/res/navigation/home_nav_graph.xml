@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_nav_graph"
+    app:startDestination="@id/viewParkingFragment">
+
+    <fragment
+        android:id="@+id/viewParkingFragment"
+        android:name="com.example.ezparkingapp.fragments.ViewParkingFragment"
+        android:label="View Parking"
+        tools:layout="@layout/fragment_view_parking" />
+    <fragment
+        android:id="@+id/addNewParkingFragment"
+        android:name="com.example.ezparkingapp.fragments.AddNewParkingFragment"
+        android:label="Add New Parking"
+        tools:layout="@layout/fragment_add_new_parking" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.ezparkingapp.fragments.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/feedBackFragment"
+        android:name="com.example.ezparkingapp.fragments.FeedBackFragment"
+        android:label="@string/feedback"
+        tools:layout="@layout/fragment_feed_back" />
+</navigation>

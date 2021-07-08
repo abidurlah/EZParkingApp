@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1070563863377",
+    "firebase_url": "https://ezparkingapp.firebaseio.com",
+    "project_id": "ezparkingapp",
+    "storage_bucket": "ezparkingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070563863377:android:4960c6fe10f0a1d321c170",
+        "android_client_info": {
+          "package_name": "com.example.ezparkingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070563863377-hrtt2ihupfph2sv5o6v1enfk3u0p9k7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQIURIGO4KJGpQobE04UQPY54aFEOEZsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070563863377-hrtt2ihupfph2sv5o6v1enfk3u0p9k7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

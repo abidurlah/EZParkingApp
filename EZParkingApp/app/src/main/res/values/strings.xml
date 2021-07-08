@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">EZ Parking</string>
+    <string name="park_your_car">Park Your Car!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="users_collection">Users</string>
+    <string name="home">Home</string>
+    <string name="view">View</string>
+    <string name="add">Add</string>
+    <string name="profile">Profile</string>
+    <string name="feedback">Feedback</string>
+    <string name="choose_parking">Choose Parking</string>
+    <string name="hourly">Hourly</string>
+    <string name="daily">Daily</string>
+    <string name="date">Date</string>
+    <string name="search">Search</string>
+    <string name="slot_number">Slot Number</string>
+    <string name="slot_name">Slot Name</string>
+    <string name="time">Time</string>
+    <string name="logout">Logout</string>
+    <string name="level_name">Level Name</string>
+    <string name="date_time"><![CDATA[Date & Time]]></string>
+    <string name="parked">Parked</string>
+    <string name="cancel_booking">Cancel Booking</string>
+    <string name="finish">Finish</string>
+    <string name="no_bookings">No Bookings</string>
+    <string name="update">Update</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+
+    <string-array name="level_string_array">
+        <item>Level 1</item>
+        <item>Level 2</item>
+        <item>Level 3</item>
+    </string-array>
+</resources>
